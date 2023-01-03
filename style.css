@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: darkcyan;
+    color: azure;
+    text-align: center;
+}
+
+nav {
+    background-color: darkgrey;
+   padding: 25px;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.blog {
+    padding: 20px;
+    text-align: center;
+    background-color: darkcyan;
+}
+
+.bg1{
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: antiquewhite;
+}
