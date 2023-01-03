@@ -1,18 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Again HTML</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
-<body>
-    <h1>
-        <a href="semantic.html" target="_blank">Semantic</a>
-    </h1>
-    <p>
-        ,,.,,,,,,,,,,,,,,
-    </p>
 
+<body>
+
+    <h1>Banglar pitha ghor</h1>
+
+    <form>
+        <label for="name">
+            Your name
+            <input  type="text" id="name" placeholder="Your name">
+        </label>
+
+        <label for="Email">
+            Your Email
+            <input type="text" id="Email" placeholder="Your Email">
+        </label>
+
+        <label for="Phone">
+            Your Number
+            <input  type="number" id="phone" placeholder="Your number">
+        </label>
+
+        <fieldset>
+            <legend>Pick one pitha</legend>
+            <label for="Chitoy">
+                <input type="radio" name="pitha" id="Chitoy">
+                Chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">
+                vapa
+            </label>
+            <label for="puli">
+                <input type="radio" name="pitha" id="puli">
+                puli
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select one or more vortas</legend>
+            <label for="shorisha">
+                <input type="checkbox" name="vorta" id="shorisha">
+                shorisha
+            </label>
+            <label for="shutki">
+                <input type="checkbox" name="vorta" id="shutki">
+                Shutki
+            </label>
+            <label for="alu">
+                <input type="checkbox" name="vorta" id="alu">
+                Alu
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special instruction</legend>
+            <textarea name="" id="" cols="60" rows="5">....</textarea>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
 </body>
+
 </html>
